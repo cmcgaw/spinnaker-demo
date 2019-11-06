@@ -33,7 +33,7 @@ public class DemoController {
         Thread.sleep(8000);
         response.addHeader("Cache-Control", headerValue);
         response.addHeader("Connection", "close");
-        logger.info("Meeseeks");
+        logger.info("Pickle");
         return "demo";
     }
 }
