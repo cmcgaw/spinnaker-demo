@@ -22,10 +22,10 @@ public class SpinnakerDemoApplication {
 	@Scheduled(fixedDelay = 20000)
 	public void printCharacters() {
 		String[] characters = new String[] {
-				"Rick",	"Morty", "Beth", "Jerry", "Summer",
-				"Mr. Poopybutthole", "Mr. Meeseeks", "Birdperson",
-				"Ants-In-My-Eyes Johnson", "Jessica", "Gazorpazorpfield",
-				"Noob Noob", "Scary Terry", "Squanchy"
+				"Baker", "OBJ", "Mr. Kitchen", "Chubb", "Miles",
+				"Landry", "Deke", "Todd",
+				"Matt", "Gunnar", "Hank",
+				"Joanne", "Elvis", "Kanye"
 		};
 		Stream.of(characters).forEach(logger::info);
 	}
